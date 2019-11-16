@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+        h1 {color:#B86A79;}
+		h1, p{
+			margin-bottom:20px;
+		}
+		.container{
+			max-width:100%;
+			height:calc(100vh - 200px);
+		}
+		
+		#map{
+			height:100%;
+		}
+		.col:last-child{
+			padding-left:20px;
+		}
+		
+		label, input, textarea{
+			width:100%;
+			max-width:300px;
+			font-size:20px;
+		}
+		
+		input, textarea{
+			padding:10px;
+			margin-bottom:20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="assets/img/test%20-%20b%20and%20b.png" width=300px height=200px>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="col c2" id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512.331500044185!2d-73.99247177544541!3d40.703419096775036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3119486c07%3A0x3876fdd40a2c7e49!2sCecconi&#39;s%20Dumbo!5e0!3m2!1sen!2sus!4v1573316686301!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+		<div class="col c2">
+			<h1>Subscribe</h1>
+			<p>Hi, this is my contact form. I want to hear from you!</p>
+			<form>
+				<label>Name<br>
+					<input type="text" name="name">
+				</label>
+				<br>
+				<label>Email<br>
+					<input type="email" name="eml">
+				</label>
+				<br>
+				<label>Message<br>
+					<textarea name="msg"></textarea>
+				</label>
+				<br>
+				<input type="submit" value="Submit" class="btn">
+			</form>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; 2019 beauty and baking.</p>
+	</footer>
+</body>
+</html>
